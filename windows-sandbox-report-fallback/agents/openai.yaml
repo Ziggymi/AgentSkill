@@ -1,0 +1,4 @@
+interface:
+  display_name: "沙箱绕行"
+  short_description: "在 Windows 补丁沙箱失败时安全完成报告产物"
+  default_prompt: "Use $windows-sandbox-report-fallback to safely finish generated reports when the Windows patch sandbox fails."
