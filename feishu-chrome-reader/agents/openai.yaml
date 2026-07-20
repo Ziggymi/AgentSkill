@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feishu Chrome Reader"
+  short_description: "Read a Feishu document from an authenticated Chrome tab"
+  default_prompt: "Use the connected, already-authenticated Chrome tab to read the requested Feishu/Lark document without requesting credentials."
