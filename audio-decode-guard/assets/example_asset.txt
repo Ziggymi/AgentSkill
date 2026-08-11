@@ -1,0 +1,3 @@
+Audio Decode Guard intentionally bundles no decoder binaries.
+
+A local FFmpeg archive may be registered only when its SHA-256 matches the pinned value documented in the Skill. This keeps the Skill package small and prevents unverified binary execution.
