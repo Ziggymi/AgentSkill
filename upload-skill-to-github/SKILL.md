@@ -98,7 +98,7 @@ agent_created: true
 
 按顺序执行：
 
-1. 使用 `quick_validate.py` 验证目标 Skill；
+1. 从已安装的内置 `skill-creator/scripts/quick_validate.py` 定位验证器，使用 WorkBuddy 受管 Python 分别验证源 Skill 和仓库副本；不要假定目标 Skill 自带验证器；
 2. 对 Python 脚本执行 `py_compile` 或等价语法检查；
 3. 搜索凭证和敏感信息；
 4. 执行 `git diff --check`；
